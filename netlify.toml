@@ -1,0 +1,28 @@
+# Netlify settings for the Sumukhi website.
+# Plain HTML site: no build step, publish the folder as it is.
+[build]
+  publish = "."
+
+# Admin edits to the gifting pages must show up straight away.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Keep the admin panel out of search results.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Product photos and the catalogue rarely change, so browsers may keep them for a week.
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
