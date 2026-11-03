@@ -1,0 +1,131 @@
+{
+  "seo_title": "Institutional Gifting — Sumukhi Curated Gifts",
+  "seo_description": "Gifts for schools, colleges and universities from Sumukhi: convocation mementos, faculty and guest appreciation, seminar kits, student welcome kits, alumni gifts and green-campus plants.",
+  "enquiry_occasion": "Educational",
+  "hero": {
+    "eyebrow": "Institutional",
+    "title": "Gifts for campuses",
+    "title_accent": "and the people who make them.",
+    "intro": "Convocations, faculty recognition, seminars and student programmes — elegant gifts that respect institutional budgets.",
+    "image": "https://images.unsplash.com/photo-1627556704290-2b1f5853ff78?w=1400&h=900&fit=crop&auto=format&q=80"
+  },
+  "sections": [
+    {
+      "title": "Convocation & graduation",
+      "kicker": "Milestones",
+      "intro": "Mementos graduates and chief guests will keep long after the ceremony.",
+      "layout": "feature",
+      "style": "light",
+      "image": "https://images.unsplash.com/photo-1627556704290-2b1f5853ff78?w=1000&h=800&fit=crop&auto=format&q=80",
+      "highlights": [
+        "Engraved diary and pen sets",
+        "Institution crest on every gift",
+        "Bulk name personalisation for graduates"
+      ],
+      "products": [],
+      "enquiry_category": "Notebooks & Diaries",
+      "button_label": "Plan convocation gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Faculty & guest appreciation",
+      "kicker": "Recognition",
+      "intro": "For chief guests, speakers, retiring faculty and Teachers' Day.",
+      "layout": "grid",
+      "style": "tint",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Diary & pen set", "description": "PU-leather diary with matching pen, gift-boxed.", "image": "assets/img/notebook-sets.jpg", "badge": "Popular" },
+        { "name": "Card holder & pen set", "description": "Metal card case and pen in a presentation box.", "image": "assets/img/pen-boxes.jpg", "badge": "" },
+        { "name": "Bottle & diary duo", "description": "Insulated bottle with a matching diary.", "image": "assets/img/bottle-sets.jpg", "badge": "" },
+        { "name": "Wooden desk set", "description": "Pen stand, clock and calendar in natural wood.", "image": "assets/img/desk.jpg", "badge": "" }
+      ],
+      "enquiry_category": "Combo Gift Sets",
+      "button_label": "Enquire about faculty gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Seminar & conference kits",
+      "kicker": "Academic events",
+      "intro": "Delegate kits for seminars, symposia and workshops — packed by participant.",
+      "layout": "grid",
+      "style": "light",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Conference notebook", "description": "Branded notebook with sticky-note flags.", "image": "assets/img/notebooks-2.jpg", "badge": "" },
+        { "name": "Delegate bag", "description": "Laptop bag or jute tote with event branding.", "image": "assets/img/bags.jpg", "badge": "" },
+        { "name": "Branded keychains", "description": "Metal and bamboo keychains for every delegate.", "image": "assets/img/keychains.jpg", "badge": "" },
+        { "name": "Steel bottle", "description": "Reusable bottle printed with the event logo.", "image": "assets/img/bottles.jpg", "badge": "" }
+      ],
+      "enquiry_category": "Notebooks & Diaries",
+      "button_label": "Plan seminar kits",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Student welcome kits",
+      "kicker": "New academic year",
+      "intro": "Welcome first-year students with a kit that's genuinely useful on campus.",
+      "layout": "feature",
+      "style": "dark",
+      "image": "assets/img/welcome-kit.jpg",
+      "highlights": [
+        "Backpack, bottle, notebook and ID card holder",
+        "Institution branding on every item",
+        "Packed per student, sorted by department"
+      ],
+      "products": [],
+      "enquiry_category": "Premium Hampers & Welcome Kits",
+      "button_label": "Plan student kits",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Alumni meets",
+      "kicker": "Reunions",
+      "intro": "Keepsakes that bring alumni back to campus — and keep them connected.",
+      "layout": "grid",
+      "style": "tint",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Drinkware duo", "description": "Matching bottle and mug with the alumni crest.", "image": "assets/img/hamper-mugs.jpg", "badge": "" },
+        { "name": "Engraved card holder", "description": "Laser-engraved with the batch year.", "image": "assets/img/cardholders.jpg", "badge": "" },
+        { "name": "Travel mugs", "description": "Insulated mugs in institution colours.", "image": "assets/img/mugs.jpg", "badge": "" },
+        { "name": "Jute tote hamper", "description": "Photo frame, bottle and keychain in a jute tote.", "image": "assets/img/jute.jpg", "badge": "Eco" }
+      ],
+      "enquiry_category": "",
+      "button_label": "Enquire about alumni gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Green campus drives",
+      "kicker": "Sustainability",
+      "intro": "Plants and eco gifts for Environment Day, green-campus initiatives and tree-planting drives.",
+      "layout": "feature",
+      "style": "green",
+      "image": "https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=1000&h=800&fit=crop&auto=format&q=80",
+      "highlights": [
+        "Desk plants and seed kits",
+        "Plantable seed pens and seed-paper notebooks",
+        "Custom tags with your institution's message"
+      ],
+      "products": [],
+      "enquiry_category": "Plant Gifts",
+      "button_label": "Plan green gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "seo_title": "Corporate Gifting — Sumukhi Curated Gifts",
+  "seo_description": "Corporate gifts from Sumukhi: employee welcome kits, executive gifts, client appreciation hampers, event giveaways and sustainable ranges — all branded with your logo.",
+  "enquiry_occasion": "Corporate",
+  "hero": {
+    "eyebrow": "Corporate collection",
+    "title": "Gifts that carry",
+    "title_accent": "your brand well.",
+    "intro": "From a new joiner's first day to a client's year-end thank-you — curated, branded and packed to impress.",
+    "image": "assets/img/hamper-premium.jpg"
+  },
+  "sections": [
+    {
+      "title": "Employee welcome kits",
+      "kicker": "Onboarding",
+      "intro": "Make day one memorable. A complete kit in one branded box — ready to hand out or ship to remote joiners.",
+      "layout": "feature",
+      "style": "light",
+      "image": "assets/img/welcome-kit.jpg",
+      "highlights": [
+        "Backpack, bottle, notebook and tech accessories in one box",
+        "Optional name personalisation for every joiner",
+        "Packed per employee, ready to hand out"
+      ],
+      "products": [],
+      "enquiry_category": "Premium Hampers & Welcome Kits",
+      "button_label": "Plan welcome kits",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Executive & leadership gifts",
+      "kicker": "Leadership",
+      "intro": "Refined, understated gifts for leaders, board members and VIP guests.",
+      "layout": "grid",
+      "style": "tint",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Executive hamper", "description": "Diary, pen, bottle and desk clock in a rigid gift box.", "image": "assets/img/hamper-premium.jpg", "badge": "Best seller" },
+        { "name": "Diary & pen set", "description": "PU-leather diary with a matching metal pen.", "image": "assets/img/notebook-sets.jpg", "badge": "" },
+        { "name": "Card holder & pen set", "description": "Metal card case and pen in a presentation box.", "image": "assets/img/pen-boxes.jpg", "badge": "" },
+        { "name": "Bottle & diary duo", "description": "Insulated steel bottle paired with a matching diary.", "image": "assets/img/bottle-sets.jpg", "badge": "" }
+      ],
+      "enquiry_category": "Combo Gift Sets",
+      "button_label": "Enquire about executive gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Client & partner appreciation",
+      "kicker": "Relationships",
+      "intro": "Thoughtful hampers that keep your brand on a client's desk all year.",
+      "layout": "grid",
+      "style": "light",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Bamboo eco hamper", "description": "Bamboo notebook, bottle, mug and keychain.", "image": "assets/img/hamper-bamboo.jpg", "badge": "Eco" },
+        { "name": "Drinkware duo", "description": "Matching bottle and mug, gift-boxed.", "image": "assets/img/hamper-mugs.jpg", "badge": "" },
+        { "name": "Wooden desk organiser", "description": "Pen stand, card holder and clock in natural wood.", "image": "assets/img/desk.jpg", "badge": "" },
+        { "name": "Pen & keychain set", "description": "A classic pairing in a black presentation box.", "image": "assets/img/pen-key-sets.jpg", "badge": "" }
+      ],
+      "enquiry_category": "Premium Hampers & Welcome Kits",
+      "button_label": "Enquire about client gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Conferences, expos & events",
+      "kicker": "Events",
+      "intro": "Giveaways people actually keep — branded in bulk and packed for fast hand-out at the venue.",
+      "layout": "feature",
+      "style": "dark",
+      "image": "assets/img/keychains.jpg",
+      "highlights": [
+        "Keychains, pens, notebooks and card holders",
+        "Bulk branding with laser, screen or UV printing",
+        "Packed and labelled by delegate or batch"
+      ],
+      "products": [],
+      "enquiry_category": "Keychains",
+      "button_label": "Plan event giveaways",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Sustainable corporate range",
+      "kicker": "Eco-friendly",
+      "intro": "Bamboo, cork, seed paper and jute — gifts that match your sustainability goals.",
+      "layout": "feature",
+      "style": "green",
+      "image": "assets/img/eco-kits.jpg",
+      "highlights": [
+        "Bamboo and cork notebooks, seed-paper diaries",
+        "Plantable seed pens and wheat-fibre mugs",
+        "Jute bags and plastic-light packaging"
+      ],
+      "products": [],
+      "enquiry_category": "Combo Gift Sets",
+      "button_label": "Explore eco gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Rewards & recognition",
+      "kicker": "R&R",
+      "intro": "Celebrate milestones, top performers and work anniversaries.",
+      "layout": "grid",
+      "style": "tint",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Laptop backpack", "description": "Padded, water-resistant backpack with your logo.", "image": "assets/img/bags.jpg", "badge": "" },
+        { "name": "Smart bottle", "description": "Vacuum-insulated bottle with temperature display.", "image": "assets/img/bottles.jpg", "badge": "" },
+        { "name": "Travel mug set", "description": "Insulated tumblers and travel mugs in brand colours.", "image": "assets/img/mugs.jpg", "badge": "" },
+        { "name": "Leather card holder", "description": "Slim RFID-safe card holder, laser-engraved.", "image": "assets/img/cardholders.jpg", "badge": "" }
+      ],
+      "enquiry_category": "",
+      "button_label": "Plan rewards",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    }
+  ]
+}

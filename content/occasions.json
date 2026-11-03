@@ -1,0 +1,127 @@
+{
+  "seo_title": "Occasions & Festive Gifting — Sumukhi Curated Gifts",
+  "seo_description": "Festive and occasion gifts from Sumukhi: Diwali hampers, Christmas and New Year gifts, Pongal and Sankranti boxes, work anniversaries and plant gifts for every celebration.",
+  "enquiry_occasion": "Festive",
+  "hero": {
+    "eyebrow": "Occasions & festive",
+    "title": "Celebrate every season,",
+    "title_accent": "beautifully.",
+    "intro": "Festive hampers and occasion gifts for your teams, clients and partners — refreshed through the year.",
+    "image": "https://images.unsplash.com/photo-1577083753695-e010191bacb5?w=1400&h=900&fit=crop&auto=format&q=80"
+  },
+  "sections": [
+    {
+      "title": "Diwali hampers",
+      "kicker": "Festival of lights",
+      "intro": "Bamboo eco sets, drinkware duos and executive hampers — branded, gift-boxed and delivered in time for Diwali.",
+      "layout": "banner",
+      "style": "dark",
+      "image": "https://images.unsplash.com/photo-1577083753695-e010191bacb5?w=1600&h=900&fit=crop&auto=format&q=80",
+      "highlights": [],
+      "products": [],
+      "enquiry_category": "Premium Hampers & Welcome Kits",
+      "button_label": "Plan Diwali hampers",
+      "show_from": "2026-09-01",
+      "show_until": "2026-11-15",
+      "hidden": false
+    },
+    {
+      "title": "Diwali gift boxes",
+      "kicker": "This season",
+      "intro": "Our most-requested festive boxes this year.",
+      "layout": "grid",
+      "style": "tint",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Bamboo eco hamper", "description": "Bamboo notebook, bottle, mug and keychain.", "image": "assets/img/hamper-bamboo.jpg", "badge": "Popular" },
+        { "name": "Executive festive box", "description": "Diary, bottle, pen and clock in a rigid box.", "image": "assets/img/hamper-premium.jpg", "badge": "" },
+        { "name": "Drinkware duo", "description": "Matching bottle and mug, festive-wrapped.", "image": "assets/img/hamper-mugs.jpg", "badge": "" },
+        { "name": "Jute tote hamper", "description": "Photo frame, glass bottle and keychain in a jute tote.", "image": "assets/img/jute.jpg", "badge": "Eco" }
+      ],
+      "enquiry_category": "Premium Hampers & Welcome Kits",
+      "button_label": "Enquire about Diwali boxes",
+      "show_from": "2026-09-01",
+      "show_until": "2026-11-15",
+      "hidden": false
+    },
+    {
+      "title": "Christmas & New Year",
+      "kicker": "Year-end",
+      "intro": "Close the year with a thank-you your teams and clients will remember.",
+      "layout": "grid",
+      "style": "light",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Year-end diary set", "description": "Next year's diary with a matching pen.", "image": "assets/img/notebook-sets.jpg", "badge": "" },
+        { "name": "Cosy drinkware set", "description": "Insulated mug and bottle for the holidays.", "image": "assets/img/mugs.jpg", "badge": "" },
+        { "name": "Desk organiser", "description": "Wooden desk set with calendar and clock.", "image": "assets/img/desk.jpg", "badge": "" },
+        { "name": "Pen & keychain set", "description": "A classic year-end gift in a presentation box.", "image": "assets/img/pen-key-sets.jpg", "badge": "" }
+      ],
+      "enquiry_category": "Combo Gift Sets",
+      "button_label": "Plan year-end gifts",
+      "show_from": "2026-11-16",
+      "show_until": "2027-01-05",
+      "hidden": false
+    },
+    {
+      "title": "Pongal & Sankranti",
+      "kicker": "Harvest festival",
+      "intro": "Natural, eco-friendly gift boxes for the harvest season.",
+      "layout": "feature",
+      "style": "green",
+      "image": "assets/img/eco-kits.jpg",
+      "highlights": [
+        "Bamboo and jute gift sets",
+        "Plant gifts with festive tags",
+        "Bulk packing for teams of any size"
+      ],
+      "products": [],
+      "enquiry_category": "Combo Gift Sets",
+      "button_label": "Plan Pongal gifts",
+      "show_from": "2026-12-15",
+      "show_until": "2027-01-20",
+      "hidden": false
+    },
+    {
+      "title": "Work anniversaries & milestones",
+      "kicker": "All year",
+      "intro": "Mark years of service, promotions and team wins with a gift that lasts.",
+      "layout": "grid",
+      "style": "light",
+      "image": "",
+      "highlights": [],
+      "products": [
+        { "name": "Engraved card holder", "description": "Laser-engraved with name and years of service.", "image": "assets/img/cardholders.jpg", "badge": "" },
+        { "name": "Laptop backpack", "description": "Durable everyday backpack with your logo.", "image": "assets/img/bags.jpg", "badge": "" },
+        { "name": "Smart bottle", "description": "Temperature-display bottle in brand colours.", "image": "assets/img/bottles-2.jpg", "badge": "" },
+        { "name": "Executive diary", "description": "Premium diary with personalised debossing.", "image": "assets/img/notebooks.jpg", "badge": "" }
+      ],
+      "enquiry_category": "",
+      "button_label": "Enquire about milestone gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    },
+    {
+      "title": "Plant gifts for every celebration",
+      "kicker": "Green gifting",
+      "intro": "Succulents, lucky plants and personalised thank-you plants — living gifts for festivals and events.",
+      "layout": "feature",
+      "style": "green",
+      "image": "https://images.unsplash.com/photo-1791575212827-c33c059c95a1?w=1000&h=800&fit=crop&auto=format&q=80",
+      "highlights": [
+        "Custom tags and branded pots",
+        "Care card with every plant",
+        "Bulk orders for events"
+      ],
+      "products": [],
+      "enquiry_category": "Plant Gifts",
+      "button_label": "Plan plant gifts",
+      "show_from": "",
+      "show_until": "",
+      "hidden": false
+    }
+  ]
+}

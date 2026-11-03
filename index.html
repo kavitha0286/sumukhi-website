@@ -3,12 +3,332 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Sumukhi — Website admin</title>
-  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>Sumukhi — Curated Corporate, Festive &amp; Educational Gifts</title>
+  <meta name="description" content="Sumukhi curates premium branded gifts for corporates, festive celebrations and educational institutions — notebooks, drinkware, tech, combo sets and hampers, with laser, screen and UV branding.">
+  <meta name="theme-color" content="#1d4f52">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=10">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
-  <!-- Decap CMS: edits the JSON files in /content through GitHub. Settings live in config.yml. -->
-  <script src="https://unpkg.com/decap-cms@3.16.3/dist/decap-cms.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Sumukhi home">
+        <img src="assets/img/logo-128.png" alt="" class="brand-mark" width="48" height="47">
+        <span class="brand-text">
+          <span class="brand-name">SUMUKHI</span>
+          <span class="brand-tag">Curated Gifts</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="index.html" class="nav-mobile-only" aria-current="page">Home</a>
+        <div class="nav-group">
+          <button class="nav-group-toggle" type="button" aria-expanded="false" aria-controls="nav-gifting">Gifting for <span aria-hidden="true">▾</span></button>
+          <div class="nav-sub" id="nav-gifting">
+            <a href="corporate.html">Corporate</a>
+            <a href="occasions.html">Occasions &amp; Festive</a>
+            <a href="institutional.html">Institutional</a>
+          </div>
+        </div>
+        <a href="collections.html">Collections</a>
+        <a href="plant-gifting.html">Plant gifts</a>
+        <a href="about.html">About</a>
+        <a href="pricing.html">Pricing &amp; FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="assets/catalogue/Sumukhi-Corporate-Gifting-Catalogue.pdf" class="nav-download" download>Catalogue ↓</a>
+        <a href="contact.html#enquire" class="btn btn-primary btn-sm nav-cta">Enquire now</a>
+      </nav>
+
+      <a href="contact.html#enquire" class="btn btn-primary btn-sm header-cta">Enquire</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="hero-head">
+              <p class="eyebrow reveal"><span class="eyebrow-rule" aria-hidden="true"></span>Corporate · Festive · Educational gifting</p>
+              <h1 class="display reveal">
+                <span class="display-line">Thoughtfully Selected.</span> <span class="display-line display-accent"><em>Beautifully Presented.</em></span>
+              </h1>
+            </div>
+            <p class="lede reveal">Sumukhi curates premium, brand-ready gifts — from executive diaries and smart drinkware to complete welcome kits and festive hampers — personalised with your logo and delivered ready to impress.</p>
+            <div class="hero-actions reveal">
+              <a href="contact.html#enquire" class="btn btn-primary btn-lg">Plan your gifting <span aria-hidden="true">→</span></a>
+              <a href="assets/catalogue/Sumukhi-Corporate-Gifting-Catalogue.pdf" class="btn btn-ghost btn-lg" download>Download catalogue <span aria-hidden="true">↓</span></a>
+            </div>
+            <dl class="hero-stats reveal">
+              <div><dt>500<sup>+</sup></dt><dd>Products to choose from</dd></div>
+              <div><dt>10</dt><dd>Curated collections</dd></div>
+              <div><dt>3</dt><dd>Branding methods</dd></div>
+            </dl>
+          </div>
+
+          <div class="hero-visual reveal">
+            <figure class="hv hv-main">
+              <img src="assets/img/hamper-bamboo.jpg" alt="Bamboo gift hampers with bottle, notebook, mug and keychain" width="1273" height="974">            </figure>
+            <figure class="hv hv-float">
+              <img src="assets/img/pen-key-sets.jpg" alt="Pen and keychain gift sets in black presentation boxes" width="1273" height="1023">
+            </figure>
+            <p class="hv-chip"><span class="dot" aria-hidden="true"></span>Laser · Screen · UV branding</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Employee welcome kits</span><span>Diwali hampers</span><span>Client appreciation</span><span>Convocation gifts</span><span>Conference giveaways</span><span>Pongal &amp; New Year</span><span>Faculty recognition</span><span>Eco-friendly kits</span><span>Plant gifts</span>
+          <span>Employee welcome kits</span><span>Diwali hampers</span><span>Client appreciation</span><span>Convocation gifts</span><span>Conference giveaways</span><span>Pongal &amp; New Year</span><span>Faculty recognition</span><span>Eco-friendly kits</span><span>Plant gifts</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="audiences">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker"><span>01</span> Who we gift for</p>
+          <h2 class="h2 h2-alt">One studio. <em>Three kinds of&nbsp;celebration.</em></h2>
+        </header>
+
+        <!-- Photos: Unsplash License (free for commercial use) — https://unsplash.com/license -->
+        <div class="audience-grid">
+          <article class="audience-card reveal">
+            <figure class="audience-media">
+              <img src="https://images.unsplash.com/photo-1719622144274-2408ecf6f6d9?w=900&h=675&fit=crop&auto=format&q=80" alt="Corporate gift box with a bamboo notebook, pen and keychain" width="900" height="675" loading="lazy">
+              <figcaption>Photo: <a href="https://unsplash.com/photos/a-wooden-box-with-a-bamboo-keychain-and-a-bamboo-box-with-a-bamboo-daZPDnz9lQY" target="_blank" rel="noopener">In Trống Đồng</a> / Unsplash</figcaption>
+            </figure>
+            <div class="audience-body">
+              <h3>Corporate</h3>
+              <p>Onboarding kits, client gifts, rewards &amp; recognition, conference giveaways and leadership offsites — branded consistently, packed beautifully.</p>
+              <ul class="ticks">
+                <li>Welcome &amp; onboarding kits</li>
+                <li>Client &amp; partner gifting</li>
+                <li>Events, expos &amp; conferences</li>
+              </ul>
+              <a href="corporate.html" class="link-arrow">Explore corporate gifts</a>
+            </div>
+          </article>
+
+          <article class="audience-card reveal">
+            <figure class="audience-media">
+              <img src="https://images.unsplash.com/photo-1577083753695-e010191bacb5?w=900&h=675&fit=crop&auto=format&q=80" alt="Lit Diwali diyas arranged on a decorative tray with flowers" width="900" height="675" loading="lazy">
+              <figcaption>Photo: <a href="https://unsplash.com/photos/lit-oil-lamps-on-decorative-tray-xisPXJqwQkA" target="_blank" rel="noopener">Udayaditya Barua</a> / Unsplash</figcaption>
+            </figure>
+            <div class="audience-body">
+              <h3>Festive</h3>
+              <p>Diwali, Pongal, Christmas and New Year hampers that feel personal — eco bamboo sets, drinkware duos and curated boxes for teams of any size.</p>
+              <ul class="ticks">
+                <li>Diwali &amp; Pongal hampers</li>
+                <li>Year-end &amp; New Year gifts</li>
+                <li>Eco-friendly festive kits</li>
+              </ul>
+              <a href="occasions.html" class="link-arrow">Explore festive gifts</a>
+            </div>
+          </article>
+
+          <article class="audience-card reveal">
+            <figure class="audience-media">
+              <img src="https://images.unsplash.com/photo-1627556704290-2b1f5853ff78?w=900&h=675&fit=crop&auto=format&q=80" alt="Graduates in gowns throwing their caps in the air outside a university building" width="900" height="675" loading="lazy">
+              <figcaption>Photo: <a href="https://unsplash.com/photos/graduates-throwing-caps-in-celebration-hpRGrfOIybc" target="_blank" rel="noopener">RUT MIIT</a> / Unsplash</figcaption>
+            </figure>
+            <div class="audience-body">
+              <h3>Educational</h3>
+              <p>Schools, colleges and universities — convocation mementos, faculty appreciation, alumni meets, seminar kits and student welcome packs.</p>
+              <ul class="ticks">
+                <li>Convocation &amp; alumni gifts</li>
+                <li>Faculty &amp; guest appreciation</li>
+                <li>Seminar &amp; student kits</li>
+              </ul>
+              <a href="institutional.html" class="link-arrow">Explore institutional gifts</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COLLECTIONS PREVIEW ============ -->
+    <section class="section section-tint" id="collections-preview">
+      <div class="container">
+        <header class="section-head section-head-split reveal">
+          <div>
+            <p class="kicker"><span>02</span> Collections</p>
+            <h2 class="h2">Ten collections, curated for every&nbsp;occasion.</h2>
+          </div>
+          <p class="section-intro">From executive diaries to complete welcome kits — every product can carry your logo. Pick a collection to see models, finishes and branding options.</p>
+        </header>
+        <div class="tiles">
+          <a class="tile reveal" href="collections.html#cat-notebooks">
+            <img src="assets/img/notebooks.jpg" alt="" loading="lazy">
+            <span class="tile-name">Notebooks &amp; Diaries</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-pens">
+            <img src="assets/img/pen-boxes.jpg" alt="" loading="lazy">
+            <span class="tile-name">Writing Instruments</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-keychains">
+            <img src="assets/img/keychains.jpg" alt="" loading="lazy">
+            <span class="tile-name">Keychains</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-cardholders">
+            <img src="assets/img/cardholders.jpg" alt="" loading="lazy">
+            <span class="tile-name">Card Holders &amp; Wallets</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-bottles">
+            <img src="assets/img/bottles.jpg" alt="" loading="lazy">
+            <span class="tile-name">Bottles &amp; Flasks</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-mugs">
+            <img src="assets/img/mugs.jpg" alt="" loading="lazy">
+            <span class="tile-name">Mugs &amp; Drinkware</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-bags">
+            <img src="assets/img/bags.jpg" alt="" loading="lazy">
+            <span class="tile-name">Bags &amp; Travel</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-tech">
+            <img src="assets/img/desk.jpg" alt="" loading="lazy">
+            <span class="tile-name">Tech &amp; Desk</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-sets">
+            <img src="assets/img/bottle-sets.jpg" alt="" loading="lazy">
+            <span class="tile-name">Combo Gift Sets</span>
+          </a>
+          <a class="tile reveal" href="collections.html#cat-hampers">
+            <img src="assets/img/welcome-kit.jpg" alt="" loading="lazy">
+            <span class="tile-name">Hampers &amp; Welcome Kits</span>
+          </a>
+        </div>
+        <div class="section-actions reveal">
+          <a href="collections.html" class="btn btn-dark btn-lg">View all collections <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLANT PREVIEW ============ -->
+    <section class="section section-green section-compact">
+      <div class="container plant-teaser">
+        <figure class="plant-teaser-media reveal">
+          <img src="https://images.unsplash.com/photo-1791575212827-c33c059c95a1?w=1000&h=760&fit=crop&auto=format&q=80" alt="Succulent plants packed in white gift boxes" width="1000" height="760" loading="lazy">
+        </figure>
+        <div class="plant-teaser-copy reveal">
+          <p class="kicker"><span>✿</span> Green gifting</p>
+          <h2 class="h2 h2-alt">Gifts that <em>keep growing.</em></h2>
+          <p class="section-intro">Desk succulents, lucky plants and personalised thank-you plants — potted, branded and packed to travel.</p>
+          <a href="plant-gifting.html" class="btn btn-green btn-lg">Explore plant gifts <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOTE: Sample testimonials. Replace with real client quotes (with their permission) before going live. -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker"><span>03</span> Kind words</p>
+          <h2 class="h2">Gifts people remember — and&nbsp;reorder.</h2>
+        </header>
+        <div class="testimonials">
+          <figure class="quote reveal">
+            <blockquote>“Our onboarding kits used to be an afterthought. Sumukhi turned them into something new joiners actually post about. Branding was crisp and every box arrived on time.”</blockquote>
+            <figcaption><span class="q-avatar" aria-hidden="true">HR</span><span><strong>HR Manager</strong>IT services company</span></figcaption>
+          </figure>
+          <figure class="quote quote-accent reveal">
+            <blockquote>“We ordered Diwali hampers for our whole team across offices. The bamboo sets looked premium and Sumukhi handled the logistics end to end.”</blockquote>
+            <figcaption><span class="q-avatar" aria-hidden="true">AD</span><span><strong>Admin Head</strong>Manufacturing firm</span></figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote>“For our convocation and guest lectures we needed elegant mementos on a tight budget. The engraved diary-and-pen sets were exactly right.”</blockquote>
+            <figcaption><span class="q-avatar" aria-hidden="true">PR</span><span><strong>Principal</strong>Higher-secondary school</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-band">
+      <div class="container cta-band-inner reveal">
+        <div>
+          <p class="kicker">Let's get started</p>
+          <h2 class="h2 h2-alt">Ready to plan <em>your gifting?</em></h2>
+          <p>Tell us the occasion, quantity and date — we'll come back with a curated shortlist and quote.</p>
+        </div>
+        <div class="cta-band-actions">
+          <a href="contact.html#enquire" class="btn btn-primary btn-lg">Send an enquiry <span aria-hidden="true">→</span></a>
+          <a href="assets/catalogue/Sumukhi-Corporate-Gifting-Catalogue.pdf" class="btn btn-ghost-light btn-lg" download>Download catalogue <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.webp" alt="Sumukhi — Curated Collections of Beautiful Gifts" width="120" height="116" loading="lazy">
+        <p class="footer-title">SUMUKHI</p>
+        <p>Curated collections of beautiful gifts for corporates, celebrations and campuses.</p>
+      </div>
+      <div>
+        <p class="footer-head">Collections</p>
+        <ul>
+          <li><a href="collections.html#cat-notebooks">Notebooks &amp; Diaries</a></li>
+          <li><a href="collections.html#cat-bottles">Bottles &amp; Flasks</a></li>
+          <li><a href="collections.html#cat-tech">Tech &amp; Desk</a></li>
+          <li><a href="collections.html#cat-sets">Combo Gift Sets</a></li>
+          <li><a href="collections.html#cat-hampers">Hampers &amp; Kits</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">Gifting for</p>
+        <ul>
+          <li><a href="corporate.html">Corporate</a></li>
+          <li><a href="occasions.html">Occasions &amp; Festive</a></li>
+          <li><a href="institutional.html">Institutional</a></li>
+          <li><a href="plant-gifting.html">Plant Gifts</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">Company</p>
+        <ul>
+          <li><a href="about.html">About Sumukhi</a></li>
+          <li><a href="about.html#process">How it works</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="pricing.html#faq">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">Get in touch</p>
+        <ul>
+          <li><a href="tel:+919363149188">+91 93631 49188</a></li>
+          <li><a href="mailto:giftsatsumukhi@gmail.com">giftsatsumukhi@gmail.com</a></li>
+          <li><a href="contact.html#enquire">Send an enquiry</a></li>
+          <li><a href="assets/catalogue/Sumukhi-Corporate-Gifting-Catalogue.pdf" download>Download catalogue (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Sumukhi Gifts. All rights reserved.</p>
+      <a href="#top" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/919363149188?text=Hi%20Sumukhi%2C%20I%27d%20like%20to%20enquire%20about%20gifting." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3Z"/></svg>
+  </a>
+
+  <script src="js/main.js?v=9" defer></script>
 </body>
 </html>
