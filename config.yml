@@ -1,0 +1,130 @@
+# Sumukhi website admin (Decap CMS)
+# The admin signs in with GitHub; Netlify handles the login.
+# Repository and site address set for the live site.
+backend:
+  name: github
+  repo: kavitha0286/sumukhi-website
+  branch: main
+  base_url: https://api.netlify.com
+  commit_messages:
+    update: "Update {{collection}} “{{slug}}” via admin"
+
+site_url: https://sumukhi-gifts.netlify.app
+display_url: https://sumukhi-gifts.netlify.app
+logo_url: /assets/img/logo-128.png
+
+# Photos uploaded in the admin are saved here and published with the site.
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+# Re-used field definitions --------------------------------------------------
+
+_category_options: &category_options
+  - { label: "— None (general enquiry) —", value: "" }
+  - "Notebooks & Diaries"
+  - "Writing Instruments"
+  - "Keychains"
+  - "Card Holders & Wallets"
+  - "Bottles & Flasks"
+  - "Mugs & Drinkware"
+  - "Bags & Travel"
+  - "Tech & Desk"
+  - "Combo Gift Sets"
+  - "Premium Hampers & Welcome Kits"
+  - "Plant Gifts"
+
+_date_field: &date_field
+  widget: datetime
+  required: false
+  format: "YYYY-MM-DD"
+  date_format: "DD MMM YYYY"
+  time_format: false
+  picker_utc: true
+
+_page_fields: &page_fields
+  - label: "Page hero (top of the page)"
+    name: hero
+    widget: object
+    collapsed: true
+    fields:
+      - { label: "Small label above the title", name: eyebrow, widget: string }
+      - { label: "Title", name: title, widget: string, hint: "Shown in dark teal." }
+      - { label: "Title — second part (italic)", name: title_accent, widget: string, hint: "Shown in terracotta italic after the title." }
+      - { label: "Intro text", name: intro, widget: text }
+      - { label: "Hero photo", name: image, widget: image, choose_url: true }
+
+  - label: "Enquiry form: occasion to pre-select"
+    name: enquiry_occasion
+    widget: select
+    options: ["Corporate", "Festive", "Educational", "Other"]
+
+  - label: "Sections"
+    name: sections
+    widget: list
+    summary: "{{fields.title}}  ·  {{fields.layout}}  ·  {{fields.show_from}} → {{fields.show_until}}"
+    hint: "Drag to reorder. Sections appear on the page in this order."
+    add_to_top: false
+    fields:
+      - { label: "Section title", name: title, widget: string }
+      - { label: "Small label above the title", name: kicker, widget: string, required: false }
+      - { label: "Intro text", name: intro, widget: text, required: false }
+      - label: "Layout"
+        name: layout
+        widget: select
+        default: grid
+        options:
+          - { label: "Product grid (cards with photo, name, description)", value: grid }
+          - { label: "Feature (large photo + text + bullet points)", value: feature }
+          - { label: "Banner (full-width photo with headline)", value: banner }
+      - label: "Background"
+        name: style
+        widget: select
+        default: light
+        options:
+          - { label: "Light", value: light }
+          - { label: "Cream", value: tint }
+          - { label: "Dark teal", value: dark }
+          - { label: "Sage green", value: green }
+      - { label: "Section photo", name: image, widget: image, required: false, choose_url: true, hint: "Used by the Feature and Banner layouts." }
+      - label: "Bullet points"
+        name: highlights
+        widget: list
+        required: false
+        field: { label: "Point", name: point, widget: string }
+        hint: "Used by the Feature layout."
+      - label: "Products"
+        name: products
+        widget: list
+        required: false
+        summary: "{{fields.name}}"
+        hint: "Used by the Product grid layout. Four products fill one row on a laptop."
+        fields:
+          - { label: "Product name", name: name, widget: string }
+          - { label: "Short description", name: description, widget: text, required: false }
+          - { label: "Photo", name: image, widget: image, choose_url: true }
+          - { label: "Badge (e.g. New, Best seller, Eco)", name: badge, widget: string, required: false }
+      - label: "Enquire button: collection to pre-select"
+        name: enquiry_category
+        widget: select
+        required: false
+        default: ""
+        options: *category_options
+      - { label: "Enquire button text", name: button_label, widget: string, required: false, default: "Enquire" }
+      - { <<: *date_field, label: "Show from", name: show_from, hint: "Leave empty to show straight away." }
+      - { <<: *date_field, label: "Show until", name: show_until, hint: "Leave empty to keep showing. When set, visitors see “Available until …”." }
+      - { label: "Hide this section", name: hidden, widget: boolean, default: false, required: false, hint: "Turn on to hide the section without deleting it." }
+
+  - { label: "Browser tab title (SEO)", name: seo_title, widget: string }
+  - { label: "Search engine description (SEO)", name: seo_description, widget: text }
+
+# What the admin can edit -----------------------------------------------------
+
+collections:
+  - name: gifting_pages
+    label: "Gifting pages"
+    description: "Edit the sections on each gifting page. Use the Show from / Show until dates to schedule seasonal collections."
+    editor: { preview: false }
+    files:
+      - { name: corporate, label: "Corporate Collection", file: content/corporate.json, format: json, fields: *page_fields }
+      - { name: occasions, label: "Occasions & Festive", file: content/occasions.json, format: json, fields: *page_fields }
+      - { name: institutional, label: "Institutional", file: content/institutional.json, format: json, fields: *page_fields }
