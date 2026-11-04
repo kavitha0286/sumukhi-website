@@ -92,7 +92,7 @@ function setupNav() {
     if (group?.classList.contains("is-open")) { setGroup(false); groupToggle.focus(); }
     else if (nav.classList.contains("is-open")) { setOpen(false); toggle.focus(); }
   });
-  window.matchMedia("(min-width: 961px)").addEventListener("change", (e) => { if (e.matches) setOpen(false); });
+  window.matchMedia("(min-width: 1101px)").addEventListener("change", (e) => { if (e.matches) setOpen(false); });
 }
 
 /* ---------- Reveal on scroll ---------- */
